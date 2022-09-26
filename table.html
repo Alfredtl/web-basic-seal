@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Bikin Tabel</title>
+</head>
+<body>
+    
+    <!-- ===== judul ===== -->
+
+    <h1>Tabel Anggota Kelompok</h1>
+
+    <form>
+
+        <p>Nama:</p>
+        <input type="text" name="nama" placeholder="Enter Your name">
+        <p>Kelompok:</p>
+        <input type="radio" name="kelompok" id="manado">
+        <label for="manado">Manado</label>
+        <input type="radio" name="kelompok" id="surabaya">
+        <label for="surabaya">Surabaya</label>
+        <div>
+            <input type="submit" value="Kirim">
+            <input type="reset" value="Reset">
+        </div>
+
+
+    </form>
+
+    <br>
+    
+    <!-- ===== no, nama, kelompok ===== -->
+
+    <table border="2">
+
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Kelompok</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Alfred</td>
+            <td>Manado</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ayu</td>
+            <td>Manado</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
