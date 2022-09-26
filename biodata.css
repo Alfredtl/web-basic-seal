@@ -1,0 +1,38 @@
+body{
+    background: #393E46;
+}
+img{
+   margin-left: 30%;
+   flex: 0 0 40%;
+   max-width: 40%;
+   position: relative;
+   text-align: center; 
+}
+h1{
+    color: #00ADB5;
+    font-size: 34px;
+    margin-top: 10%;
+    text-align: center;
+}
+h2{
+    color: #00ADB5;
+    font-size: 34px;
+    margin-top: 10%;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: #EEEEEE;
+    font-size: large;
+}
+li{
+    text-align: center;
+    color: #EEEEEE;
+    font-size: large;    
+}
+footer{
+    text-align: center;
+}
+a{
+    color: rgb(171, 186, 199);
+}
