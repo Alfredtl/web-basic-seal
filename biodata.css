@@ -26,6 +26,9 @@ p{
     font-size: large;
 }
 li{
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
     text-align: center;
     color: #EEEEEE;
     font-size: large;    
