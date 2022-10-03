@@ -1,5 +1,5 @@
 body{
-    background: #393E46;
+    background: #484d55;
 }
 img{
    margin-left: 30%;
@@ -25,7 +25,7 @@ p{
     color: #EEEEEE;
     font-size: large;
 }
-li{
+.skill li{
     margin-right: auto;
     margin-left: auto;
     width: 25%;
@@ -33,7 +33,14 @@ li{
     color: #EEEEEE;
     font-size: large;    
 }
-
+.education li{
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+    text-align: center;
+    color: #EEEEEE;
+    font-size: large;    
+}
 a{
     color: rgb(171, 186, 199);
 }
