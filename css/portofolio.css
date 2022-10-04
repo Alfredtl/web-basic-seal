@@ -46,23 +46,36 @@ table {
     text-align: center; 
  
 }
-.comment .form{
+.form{
     height: 15px;
     width: 15%;
     font-size: 16px;
     border-radius: 24px;
     padding: 5px 15px;
+    background: #fdf9ff;
+    color: #504e70;
     border: 1px solid grey;
+    transition: all 0.2s ease;
 }
-.comment .message{
-    height: 15px;
-    width: 15%;
+.form:focus{
+    box-shadow: 0 0 40px rgba(48, 46, 77, 0.35);
+    outline: 0px;
+}
+.message{
+    height: 100px;
+    width: 30%;
     font-size: 16px;
     border-radius: 24px;
     padding: 5px 15px;
+    background: #fdf9ff;
+    color: #504e70;
     border: 1px solid grey;
+    transition: all 0.2s ease;
 }
-
+.message:focus{
+    box-shadow: 0 0 40px rgba(48, 46, 77, 0.35);
+    outline: 0px;
+}
 .btn{
     font-size: large;
     text-align: center; 
