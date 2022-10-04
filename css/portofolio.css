@@ -2,6 +2,7 @@ body{
     background-color:rgb(211, 222, 232);
     background-image:url('../image/gray-calathea-lutea-leaf-patterned.jpg');
     background-size:cover;
+    background-attachment: fixed;
 }
 h1{
     margin-top: 5%;
