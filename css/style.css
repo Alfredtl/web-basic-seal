@@ -1,12 +1,16 @@
 body{
     background: #484d55;
+    background-image:url('../image/gray-calathea-lutea-leaf-patterned.jpg');
+    background-size:cover;
+
 }
 img{
+   display: block;
    margin-left: 30%;
    flex: 0 0 40%;
    max-width: 40%;
-   position: relative;
-   text-align: center; 
+   position: relative; 
+   border-radius: 50px;
 }
 h1{
     color: #00ADB5;
@@ -23,6 +27,7 @@ h2{
 p{
     text-align: center;
     color: #EEEEEE;
+    color: #484d55;
     font-size: large;
 }
 .skill li{
@@ -31,6 +36,7 @@ p{
     width: 25%;
     text-align: center;
     color: #EEEEEE;
+    color: #484d55;
     font-size: large;    
 }
 .education li{
@@ -39,8 +45,6 @@ p{
     width: 25%;
     text-align: center;
     color: #EEEEEE;
+    color: #484d55;
     font-size: large;    
-}
-a{
-    color: rgb(171, 186, 199);
 }

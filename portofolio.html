@@ -42,7 +42,9 @@
 
 <!-- ========== bio ========== -->
     <h1>Welcome to My Portfolio</h1>
-    <img src="image/Sawah.jpg" alt="gambar">
+    <div class="gambar-satu">
+        <img src="image/Sawah.jpg" alt="gambar">
+    </div>
 
     <h3>Bio</h3>  
     <table class="table-satu" border="1">
@@ -75,14 +77,18 @@
 </div>
 <!-- ========== Project ========== -->
     <h3>My last Project</h3>
-    <img src="image/Project3.png" alt="gambar2">
+    <div class="gambar-dua">
+        <img src="image/Project3.png" alt="gambar2">
+    </div>
 <!-- ========== Comments ========== -->
     <h3>Leave your AWSome comment here</h3>
-<div class="comment">    
-    <input type="text" placeholder="Name" required>
-    <input type="email" placeholder="Email" required>
-    <p><textarea name="comment" placeholder="type Your Comment Here" cols="50" rows="10"></textarea></p>
-    <p><input type="submit"></p>
-</div>
+    <div class="comment">    
+        <p><input type="text" placeholder="Name" size="50" required></p>
+        <input type="email" placeholder="Email" size="50" required>
+        <p><textarea name="comment" placeholder="type Your Comment Here" cols="50" rows="10"></textarea></p>
+        <button class="btn">
+            <span>Submit</span>
+        </button>
+    </div>
 </body>
 </html>
