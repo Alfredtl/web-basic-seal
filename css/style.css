@@ -28,23 +28,28 @@ p{
     text-align: center;
     color: #EEEEEE;
     color: #484d55;
+    color: #111;
     font-size: large;
 }
 .skill li{
     margin-right: auto;
     margin-left: auto;
+    padding: 1%;
     width: 25%;
     text-align: center;
     color: #EEEEEE;
     color: #484d55;
+    color: #111;
     font-size: large;    
 }
 .education li{
     margin-right: auto;
     margin-left: auto;
+    padding: 1%;
     width: 25%;
     text-align: center;
     color: #EEEEEE;
     color: #484d55;
+    color: #111;
     font-size: large;    
 }
