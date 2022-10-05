@@ -7,16 +7,20 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    position: fixed;
     overflow: hidden;
+    display: block;
     background-color: #333;
 }
 .nav li {
     float: left;
 }
 .nav li a {
-    text-align: center;
     display: block;
-    color: white;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -29,14 +33,13 @@ img{
    margin-left: 30%;
    flex: 0 0 40%;
    max-width: 40%;
-   position: relative; 
    border-radius: 50px;
 }
 h1{
     color: #00ADB5;
     color: #393E46;
     font-size: 34px;
-    margin-top: 5%;
+    margin-top: 10%;
     font-weight: 600;
     text-align: center;
 }
@@ -53,19 +56,17 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     color: #EEEEEE;
     color: #484d55;
-    color: #111;
-    font-size: large;
+    font-size: 18px;
 }
 .skill li{
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
-    width: 25%;
+    width: 15%;
     text-align: center;
     color: #EEEEEE;
     color: #484d55;
-    color: #111;
-    font-size: large;    
+    font-size: 18px;   
 }
 .education li{
     margin-right: auto;
@@ -75,6 +76,5 @@ p{
     text-align: center;
     color: #EEEEEE;
     color: #484d55;
-    color: #111;
-    font-size: large;    
+    font-size: 18px;  
 }
