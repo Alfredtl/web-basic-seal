@@ -119,7 +119,7 @@ table {
     background-color: #110;
 }
 
-/* smartphone */
+/* hp */
 
 @media (min-width: 0px) and (max-width: 767px){
     .gambar-satu > img{
