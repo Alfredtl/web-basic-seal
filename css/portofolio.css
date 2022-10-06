@@ -22,7 +22,7 @@ body{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 16px;
+    padding: 20px 46px;
     text-decoration: none;
 }
 .nav li a:hover {
@@ -41,7 +41,9 @@ h3{
     text-align: center;
 }
 .gambar-satu img{
-    margin-left: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     flex: 0 0 40%;
     max-width: 40%; 
     border-radius: 10px;
@@ -51,7 +53,6 @@ h3{
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
 }    
 table {
     margin-left: auto;
@@ -116,4 +117,48 @@ table {
 .btn:hover{
     transform: scale(1.05);
     background-color: #110;
+}
+
+/* smartphone */
+
+@media (min-width: 0px) and (max-width: 767px){
+    .gambar-satu > img{
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    .gambar-dua > img{
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    h1{
+        margin-top: 15%;
+    }
+    .btn{
+        width: 140px;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 768px){
+    .gambar-satu > img{
+        max-width: 60%;
+    }
+    .gambar-dua > img{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* pc */
+
+@media (min-width: 992px){
+    .gambar-satu > img{
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .gambar-dua > img{
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
 }

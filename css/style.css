@@ -22,7 +22,7 @@ body{
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 20px 16px;
+    padding: 20px 46px;
     text-decoration: none;
 }
 .nav li a:hover {
@@ -30,9 +30,9 @@ body{
 }
 img{
    display: block;
-   margin-left: 30%;
-   flex: 0 0 40%;
-   max-width: 40%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
    border-radius: 100%;
 }
 h1{
@@ -62,7 +62,7 @@ p{
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
-    width: 15%;
+    width: 35%;
     text-align: center;
     color: #EEEEEE;
     color: #484d55;
@@ -77,4 +77,33 @@ p{
     color: #EEEEEE;
     color: #484d55;
     font-size: 18px;  
+}
+
+/* smartphone */
+
+@media (min-width: 0px) and (max-width: 767px){
+    .gambar--satu > img{
+        flex: 0 0 80%;
+        max-width: 80%;
+    }
+    h1{
+        margin-top: 15%;
+    }
+}
+
+/* tablet */
+
+@media (min-width: 768px){
+    .gambar--satu > img{
+        max-width: 60%;
+    }
+}
+
+/* pc */
+
+@media (min-width: 1199px){
+    .gambar--satu > img{
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
 }
