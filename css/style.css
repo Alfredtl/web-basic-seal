@@ -1,6 +1,6 @@
 body{
-    background-image:url('../image/gray-calathea-lutea-leaf-patterned.jpg');
-    background-size:cover;
+    background-image: url('/image/gray-calathea-lutea-leaf-patterned.jpg');
+    background-size: cover;
     background-attachment: fixed;
 }
 .nav ul {
