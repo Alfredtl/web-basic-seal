@@ -3,30 +3,48 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
+.container{
+    width: 90%;
+}
+header{
+    width: 99%;
+    padding: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navigation{
     width: 100%;
-    position: fixed;
-    overflow: hidden;
-    display: block;
+    padding: 5px 0 5px 0;
+}
+.navigation .box-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation .box-navigation .box:nth-child(1) ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.navigation .box-navigation .box:nth-child(1) li{
+    list-style-type: none;
+}
+.navigation .box-navigation .box:nth-child(1) ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 25px 40px;
+    transition: all 0.3s ease;
+}
+.navigation .box-navigation a:hover{
     background-color: #333;
 }
-.nav li {
-    float: left;
-}
-.nav li a {
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 46px;
-    text-decoration: none;
-}
-.nav li a:hover {
-    background-color: #111;
+.navigation .box-navigation .box:nth-child(2) i{
+    display: none;
+    cursor: pointer;
 }
 img{
    display: block;
@@ -39,7 +57,7 @@ h1{
     color: #00ADB5;
     color: #393E46;
     font-size: 34px;
-    margin-top: 10%;
+    margin-top: 5%;
     font-weight: 600;
     text-align: center;
 }
@@ -90,13 +108,48 @@ p{
 
 /* smartphone */
 
-@media (min-width: 0px) and (max-width: 767px){
+@media (min-width: 0px) and (max-width: 768px){
     .gambar--satu > img{
         flex: 0 0 80%;
         max-width: 80%;
     }
     h1{
         margin-top: 15%;
+    }
+    .navigation .box-navigation .box:nth-child(1){
+        display: flex;
+        position: absolute;
+        top: 60px;
+        left: 10px;
+        background-color: #333;
+        width: 100px;
+        border-radius: 10px;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+    .navigation .box-navigation .menu-navigation.menu-active{
+        opacity: 1;
+        width: 180px;
+        height: 150px;
+    }
+    .navigation .box-navigation .box:nth-child(1) ul{
+        flex-direction: column;   
+    }
+    .navigation .box-navigation .box:nth-child(1) ul li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .navigation .box-navigation .box:nth-child(1) ul li a{
+        color:aliceblue;
+        font-size: 16px;
+        padding: 20px 25px;
+    }       
+    .navigation .box-navigation .box:nth-child(2) i{
+        display: flex;
+        align-items: center;
+    }
+    .navigation .box-navigation .box:nth-child(2) i{
+        font-size: 28px;
     }
 }
 
