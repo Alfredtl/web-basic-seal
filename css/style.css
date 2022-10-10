@@ -4,15 +4,18 @@ body{
     background-attachment: fixed;
 }
 .container{
-    width: 90%;
+    width: 100%;
 }
 header{
-    width: 99%;
+    width: 100%;
     padding: 5px;
+    top: 0;
+    left: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    position: fixed;
 }
 .navigation{
     width: 100%;
@@ -39,12 +42,15 @@ header{
     padding: 25px 40px;
     transition: all 0.3s ease;
 }
-.navigation .box-navigation a:hover{
-    background-color: #333;
+.navigation .box-navigation .box:nth-child(1) a:hover{
+    background-color: #111;
 }
-.navigation .box-navigation .box:nth-child(2) i{
+.navigation .box-navigation .box:nth-child(2) {
     display: none;
     cursor: pointer;
+}
+.navigation .box-navigation .box:nth-child(2) i{
+    float: right;
 }
 img{
    display: block;
@@ -119,21 +125,21 @@ p{
     .navigation .box-navigation .box:nth-child(1){
         display: flex;
         position: absolute;
-        top: 60px;
-        left: 10px;
+        top: 35px;
         background-color: #333;
-        width: 100px;
+        width: 95%;
         border-radius: 10px;
         opacity: 0;
         transition: all 0.3s ease;
     }
     .navigation .box-navigation .menu-navigation.menu-active{
         opacity: 1;
-        width: 180px;
+        top: 65px;
+        width: 95%;
         height: 150px;
     }
     .navigation .box-navigation .box:nth-child(1) ul{
-        flex-direction: column;   
+        flex-direction: column;
     }
     .navigation .box-navigation .box:nth-child(1) ul li{
         margin-top: 20px;
@@ -142,15 +148,16 @@ p{
     .navigation .box-navigation .box:nth-child(1) ul li a{
         color:aliceblue;
         font-size: 16px;
-        padding: 20px 25px;
+        margin: auto;
     }       
-    .navigation .box-navigation .box:nth-child(2) i{
-        display: flex;
-        align-items: center;
-    }
+    .navigation .box-navigation .box:nth-child(2) {
+        display: inline-block;
+    }    
     .navigation .box-navigation .box:nth-child(2) i{
         font-size: 28px;
+        position: sticky;
     }
+    
 }
 
 /* tablet */
@@ -158,6 +165,9 @@ p{
 @media (min-width: 768px){
     .gambar--satu > img{
         max-width: 60%;
+    }
+    h1{
+        margin-top: 10%;
     }
 }
 
@@ -167,5 +177,8 @@ p{
     .gambar--satu > img{
         flex: 0 0 40%;
         max-width: 40%;
+    }
+    h1{
+        margin-top: 10%;
     }
 }
