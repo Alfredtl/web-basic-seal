@@ -78,8 +78,14 @@ p{
     color: #484d55;
     font-size: 18px;  
 }
+.portfolio a{
+    text-decoration: none;
+}
 .contact-me{
     margin-bottom: 15%;
+}
+.contact-me a{
+    text-decoration: none;
 }
 
 /* smartphone */
