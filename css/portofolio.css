@@ -10,7 +10,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    position: fixed;
+    position: relative;
     overflow: hidden;
     display: block;
     background-color: #333;
