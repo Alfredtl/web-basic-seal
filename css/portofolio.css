@@ -41,14 +41,22 @@ h3{
     margin-bottom: 20px;
     text-align: center;
 }
-.gambar-satu img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    flex: 0 0 40%;
-    max-width: 40%; 
-    border-radius: 10px;
+#hero{
+    height: 85vh;
+}
+#bio{
+    height: 85vh;
+}
+#skill{
+    height: 85vh;
+}
+#project{
+    height: 85vh;
+}
+.gambar-satu{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }  
 .gambar-dua img{ 
     display: block;
