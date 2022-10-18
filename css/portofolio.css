@@ -97,6 +97,9 @@ table {
     box-shadow: 0 0 40px rgba(48, 46, 77, 0.35);
     outline: 0px;
 }
+.form-label{
+    float: left;
+}
 .message{
     height: 100px;
     width: 30%;
@@ -144,7 +147,7 @@ table {
     h1{
         margin-top: 15%;
     }
-    .form{
+    .form-control{
         width: 150px;
     }
     .message{
