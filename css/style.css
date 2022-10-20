@@ -25,15 +25,9 @@ body{
     text-indent: 50px;
     text-align: justify;
 }
-.skill li{
-    margin-right: auto;
-    margin-left: auto;
-    padding: 10px;
-    width: 25%;
-    text-align: center;
-    color: #EEEEEE;
-    color: #484d55;
-    font-size: 18px;   
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
 }
 .education li{
     margin-right: auto;
