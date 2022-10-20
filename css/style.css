@@ -6,51 +6,12 @@ body{
 .container{
     width: 100%;
 }
-header{
-    width: 100%;
-    padding: 5px;
-    top: 0;
-    left: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+.title{
+    font-family: 'Raleway', sans-serif;
 }
-.navigation{
-    width: 100%;
-    padding: 10px 0 10px 0;
-}
-.navigation .box-navigation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.navigation .box-navigation .box:nth-child(1) ul{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-.navigation .box-navigation .box:nth-child(1) li{
-    list-style-type: none;
-}
-.navigation .box-navigation .box:nth-child(1) ul li a{
-    text-decoration: none;
-    font-size: 18px;
-    color: aliceblue;
-    padding: 25px 40px;
-    transition: all 0.3s ease;
-}
-.navigation .box-navigation .box:nth-child(1) a:hover{
-    background-color: #111;
-}
-.navigation .box-navigation .box:nth-child(2) {
-    display: none;
-    cursor: pointer;
-}
-.navigation .box-navigation .box:nth-child(2) i{
-    float: right;
+
+.subtitle{
+    letter-spacing: 10px;
 }
 img{
    display: block;
@@ -58,6 +19,11 @@ img{
    margin-right: auto;
    margin-top: 5%;
    border-radius: 100%;
+}
+.img-hero{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 h1{
     color: #00ADB5;
