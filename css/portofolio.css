@@ -131,6 +131,7 @@ table {
 .btn:hover{
     transform: scale(1.05);
     background-color: #110;
+    
 }
 
 /* hp */
