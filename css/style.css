@@ -9,12 +9,26 @@ body{
 .title{
     font-family: 'Raleway', sans-serif;
 }
-
 .subtitle{
     letter-spacing: 10px;
 }
 #hero{
     height: 100vh;   
+}
+#about{
+    height: 100vh;
+}
+#skill{
+    height: 100vh;
+}
+#education{
+    height: 100vh;
+}
+#portofolio{
+    height: 100vh;
+}
+#contact{
+    height: 60vh;
 }
 .img-hero{
     width: 250px;
