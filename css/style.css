@@ -99,7 +99,15 @@ body{
         font-size: 28px;
         position: sticky;
     }
-    
+    #skill{
+        margin-top: 50%;
+    }
+    #education{
+        margin-top: 200%;
+    }
+    .text-about{
+        margin-top: 5%;
+    }
 }
 
 /* tablet */
